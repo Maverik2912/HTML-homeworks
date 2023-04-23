@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 30px 0;
+    font-family: sans-serif;
+}
+.form{
+    border: 1px solid #a1a1a1;
+}
+.title{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 75px;
+    font-weight: 400;
+    margin: 70px 0;
+}
+form{
+    width: 80%;
+    margin: 0 auto;
+}
+.form__item{
+    margin-bottom: 10px;
+}
+.form__input{
+    width: 100%;
+    padding: 22px 12px 17px;
+    border: 1px solid #989898;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+.form__input::placeholder{
+    font-size: 18px;
+    font-weight: 500;
+}
+.form__button{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    background-color: #68b5f9;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 12px;
+    font-size: 22px;
+}
+.or{
+    margin: 30px 0 50px;
+    font-size: 20px;
+    font-weight: 700;
+    color: gray;
+    text-align: center;
+}
+.fb-login{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.logo{
+    flex: 0 0 36px;
+}
+.logo img{
+    width: 100%;
+}
+.text{
+    color: #3657a1;
+    font-size: 22px;
+    padding-top: 5px;
+    font-weight: 700;
+}
+.forgot{
+    color: #203360;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 18px;
+}
+.registration{
+    margin-top: 20px;
+    border: 1px solid #a1a1a1;
+    padding: 30px 15px;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+.blue{
+    color: #68b5f9;
+    font-weight: 600;
+}

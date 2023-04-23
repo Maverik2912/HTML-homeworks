@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cross-links</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        section {
+            width: 100vw;
+            height: 100vh;
+            text-align: center;
+            padding: 50px;
+        }
+
+        #red {
+            background-color: #d51069;
+        }
+
+        #yellow {
+            background-color: #beda0b;
+        }
+
+        #green {
+            background-color: #13cd38;
+        }
+
+        h3 {
+            margin-bottom: 50px;
+            font-size: 40px;
+        }
+
+        a {
+            display: block;
+            margin: 50px 0;
+            font-size: 70px;
+            text-decoration: none;
+            color: black;
+            font-weight: 700;
+        }
+
+        p {
+            margin-bottom: 30px;
+            font-size: 20px;
+            line-height: 25px;
+        }
+    </style>
+</head>
+<body>
+
+<section id="red">
+    <h3>Section 1</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus aspernatur consequuntur cumque cupiditate
+        deserunt earum eos et eveniet fugiat fugit id, illo, incidunt inventore laborum laudantium minus molestiae
+        molestias nisi odio odit omnis perferendis praesentium quam quas quis repellat rerum soluta sunt tempora ut
+        velit vero vitae voluptate voluptatibus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores atque consequuntur debitis deleniti dolorem
+        eligendi error esse eum, hic molestiae mollitia non numquam odio omnis quisquam, quos repellat rerum saepe
+        tenetur vel! Aspernatur aut consequuntur cumque explicabo illum maxime minus, nihil, placeat, porro suscipit
+        tempore totam veritatis. Maxime, obcaecati, perferendis.</p>
+    <a href="#yellow">&darr;</a>
+</section>
+
+<section id="yellow">
+    <a href="#red">&uarr;</a>
+    <h3>Section 2</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus aspernatur consequuntur cumque cupiditate
+        deserunt earum eos et eveniet fugiat fugit id, illo, incidunt inventore laborum laudantium minus molestiae
+        molestias nisi odio odit omnis perferendis praesentium quam quas quis repellat rerum soluta sunt tempora ut
+        velit vero vitae voluptate voluptatibus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores atque consequuntur debitis deleniti dolorem
+        eligendi error esse eum, hic molestiae mollitia non numquam odio omnis quisquam, quos repellat rerum saepe
+        tenetur vel! Aspernatur aut consequuntur cumque explicabo illum maxime minus, nihil, placeat, porro suscipit
+        tempore totam veritatis. Maxime, obcaecati, perferendis.</p>
+    <a href="#green">&darr;</a>
+</section>
+
+<section id="green">
+    <a href="#yellow">&uarr;</a>
+    <h3>Section 3</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus aspernatur consequuntur cumque cupiditate
+        deserunt earum eos et eveniet fugiat fugit id, illo, incidunt inventore laborum laudantium minus molestiae
+        molestias nisi odio odit omnis perferendis praesentium quam quas quis repellat rerum soluta sunt tempora ut
+        velit vero vitae voluptate voluptatibus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores atque consequuntur debitis deleniti dolorem
+        eligendi error esse eum, hic molestiae mollitia non numquam odio omnis quisquam, quos repellat rerum saepe
+        tenetur vel! Aspernatur aut consequuntur cumque explicabo illum maxime minus, nihil, placeat, porro suscipit
+        tempore totam veritatis. Maxime, obcaecati, perferendis.</p>
+</section>
+</body>
+</html>

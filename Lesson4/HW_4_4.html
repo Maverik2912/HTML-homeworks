@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./form.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form">
+            <h1 class="title">Заповніть поля анкети</h1>
+            <form>
+                <div class="form__item">
+                    <label for="name" class="form__label">Ваше ім'я:</label>
+                    <input type="text" class="form__input" name="name" id="name" required>
+                </div>
+
+                <div class="form__item">
+                    <label for="surname" class="form__label">Ваше прізвище:</label>
+                    <input type="text" class="form__input" name="surname" id="surname" required>
+                </div>
+                <div class="form__item">
+                    <div class="form__label gender">Ваша стать:</div>
+                    <input class="form__radio" type="radio" id="women" value="women" name="gender" checked>
+                    <label for="women">Жіноча</label>
+                    <input class="form__radio" type="radio" id="man" value="man" name="gender">
+                    <label for="man">Чоловіча</label>
+                </div>
+                <p class="subtitle">Послугами якої компанії ви користуєтесь:</p>
+                <div class="form__item">
+                    <input type="checkbox" class="form__checkbox" value="KyivStar" id="Kyiv">
+                    <label for="Kyiv">KyivStar</label>
+
+                    <input type="checkbox" class="form__checkbox" value="MTS" id="MTS">
+                    <label for="MTS">MTS</label>
+
+                    <input type="checkbox" class="form__checkbox" value="Life" id="Life">
+                    <label for="Life">Life:)</label>
+
+                    <input type="checkbox" class="form__checkbox" value="Net" id="Net">
+                    <label for="Net">PeopleNet</label>
+
+                    <input type="checkbox" class="form__checkbox" value="Utel" id="Utel">
+                    <label for="Utel">Utel</label>
+                </div>
+                <div class="buttons">
+                    <input type="submit" value="Надіслати анкету" class="button">
+                    <input type="reset" value="Очистити бланк" class="button">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flexbox</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            color: white;
+            font-size: 25px;
+            padding: 30px;
+        }
+        .main__container{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .widgets, .contact, .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .widgets, .contact{
+            background-color: deepskyblue;
+        }
+        .widgets{
+            height: 200px;
+        }
+        .contact{
+            height: 270px;
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .box{
+            background-color: darkblue;
+            height: 150px;
+            flex: 33.333%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main__container">
+        <div class="widgets">Widgets</div>
+        <div class="container">
+            <div class="box">Big Widgets</div>
+            <div class="box">Bigger Widgets</div>
+            <div class="box">Huge Widgets</div>
+        </div>
+        <div class="contact">Contact</div>
+    </div>
+</body>
+</html>
