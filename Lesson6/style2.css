@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 'a a a a'
+                         'b c d h'
+                         'e f g h';
+    grid-gap: 10px;
+}
+.a{
+    grid-area: a;
+}
+.b{
+    grid-area: b;
+}
+.c{
+    grid-area: c;
+}
+.d{
+    grid-area: d;
+}
+.e{
+    grid-area: e;
+}
+.f{
+    grid-area: f;
+}
+.h{
+    grid-area: h;
+}
+.wrapper div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: gray;
+    font-size: 50px;
+}

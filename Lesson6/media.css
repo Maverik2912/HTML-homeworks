@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+    .wrapper {
+        grid-template-areas: 'a a a'
+                             'b b b'
+                             'c d e'
+                             'f f f';
+        grid-gap: 20px;
+    }
+}
